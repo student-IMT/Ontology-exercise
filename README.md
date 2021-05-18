@@ -1,5 +1,7 @@
 # Ontology-exercise
 
+DIDIER JEANNEL & NICOLAS MARCQ
+
 Three .owl files are included in the repository
 
 1/ "std_ontology.owl" was the first one created
