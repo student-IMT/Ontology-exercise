@@ -23,7 +23,14 @@ The model was validated during the class, and the "std_ontology.owl" was created
 We made further tries (not all reported here) and "new_try.owl" is reflecting the changes after the clarification given on the use of "some"  and "only", and succeed in using some object properties linking more than one single object to another single object.
 
 Further notes : 
-- All three files need to be opened in english to be readable, and are readable with Webprotege by selecting "en" at the creation of the project using the .owl file.
+- All three files need to be opened in english to be readable, and are readable with Webprotege either by uploading the owl file in new projects (selecting "en" at the creation 
+of the project) or using the links provided below. In any case, a webprotege account is needed.
+https://webprotege.stanford.edu/#projects/84fa787f-a20e-4a2a-b6e9-9adebee49263
+
+https://webprotege.stanford.edu/#projects/f35e1c94-cd52-4885-8839-12396d0c4768
+
+https://webprotege.stanford.edu/#projects/cbd79c48-f832-4243-bcba-95269a691bd1
+
 - The diagram was designed and uploaded on GitHub using a very nice onliine tool : app.diagrams.net
 
 
