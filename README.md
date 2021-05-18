@@ -34,7 +34,7 @@ https://webprotege.stanford.edu/#projects/f35e1c94-cd52-4885-8839-12396d0c4768
 
 https://webprotege.stanford.edu/#projects/cbd79c48-f832-4243-bcba-95269a691bd1
 
-- The diagram was designed and uploaded on GitHub using a very nice onliine tool : app.diagrams.net
+- The diagram was designed and uploaded on GitHub using a very nice online tool : app.diagrams.net
 
 
 
