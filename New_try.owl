@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#"
+     xml:base="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_1899c36f_3c09_4504_885c_f2d00186bf65 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_1899c36f_3c09_4504_885c_f2d00186bf65">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_0e5b5be3_63c5_4e2a_b0fc_20b1751d6fe3"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_d11bb5f2_bd07_4bde_acbb_c7c741d9df7b"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_8286e969_43be_451b_93ad_790b8cec4c5b"/>
+        <rdfs:label xml:lang="en">créeCT</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_74762d3d_152a_492d_a943_6616835b26c9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_74762d3d_152a_492d_a943_6616835b26c9">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_3cd270c2_6570_40ec_861c_b20146693062"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_571cc214_016b_44d7_a783_81507e918a64"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_c4a64ee5_0965_4b86_92f4_43d1474e9106"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">fournit_experts</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_81adfb2a_4c9c_4b77_90f1_3f13cba0bd0a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_81adfb2a_4c9c_4b77_90f1_3f13cba0bd0a">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_3cd270c2_6570_40ec_861c_b20146693062"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_571cc214_016b_44d7_a783_81507e918a64"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_c4a64ee5_0965_4b86_92f4_43d1474e9106"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_39660358_c3f5_4f5b_9e1c_f0e8c18a8fa4"/>
+        <rdfs:label xml:lang="en">redige</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_991ea326_52d3_47a1_805f_a2d00c2214d6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_991ea326_52d3_47a1_805f_a2d00c2214d6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_8286e969_43be_451b_93ad_790b8cec4c5b"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_c4a64ee5_0965_4b86_92f4_43d1474e9106"/>
+        <rdfs:label xml:lang="en">créeGT</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_c946a983_2ca8_490a_9a89_84f6dbd288cb -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_c946a983_2ca8_490a_9a89_84f6dbd288cb">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_fe5e99a7_6696_4125_94a9_afaaff877300"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_39660358_c3f5_4f5b_9e1c_f0e8c18a8fa4"/>
+        <rdfs:label xml:lang="en">decrit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_f6e8f8b2_b2c5_4b39_a936_dd8f1914b361 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_f6e8f8b2_b2c5_4b39_a936_dd8f1914b361">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_571cc214_016b_44d7_a783_81507e918a64"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_8286e969_43be_451b_93ad_790b8cec4c5b"/>
+        <rdfs:label xml:lang="en">fournit_delegation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/s002139/ontologies/2021/3/untitled-ontology-14#convoque -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/s002139/ontologies/2021/3/untitled-ontology-14#convoque">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_a4c297b6_cb1b_4046_a02c_4c49b8d7fb85"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_8286e969_43be_451b_93ad_790b8cec4c5b"/>
+        <rdfs:label xml:lang="en">convoque</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_0e5b5be3_63c5_4e2a_b0fc_20b1751d6fe3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_0e5b5be3_63c5_4e2a_b0fc_20b1751d6fe3">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_1899c36f_3c09_4504_885c_f2d00186bf65"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_8286e969_43be_451b_93ad_790b8cec4c5b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Consortium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_39660358_c3f5_4f5b_9e1c_f0e8c18a8fa4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_39660358_c3f5_4f5b_9e1c_f0e8c18a8fa4">
+        <rdfs:label xml:lang="fr">Norme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_3cd270c2_6570_40ec_861c_b20146693062 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_3cd270c2_6570_40ec_861c_b20146693062">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_74762d3d_152a_492d_a943_6616835b26c9"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_571cc214_016b_44d7_a783_81507e918a64"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_74762d3d_152a_492d_a943_6616835b26c9"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_c4a64ee5_0965_4b86_92f4_43d1474e9106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_81adfb2a_4c9c_4b77_90f1_3f13cba0bd0a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_39660358_c3f5_4f5b_9e1c_f0e8c18a8fa4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Entreprise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_571cc214_016b_44d7_a783_81507e918a64 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_571cc214_016b_44d7_a783_81507e918a64">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_81adfb2a_4c9c_4b77_90f1_3f13cba0bd0a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_39660358_c3f5_4f5b_9e1c_f0e8c18a8fa4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_f6e8f8b2_b2c5_4b39_a936_dd8f1914b361"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_8286e969_43be_451b_93ad_790b8cec4c5b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Commission_nationale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_8286e969_43be_451b_93ad_790b8cec4c5b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_8286e969_43be_451b_93ad_790b8cec4c5b">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_991ea326_52d3_47a1_805f_a2d00c2214d6"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_c4a64ee5_0965_4b86_92f4_43d1474e9106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Comite_technique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_a4c297b6_cb1b_4046_a02c_4c49b8d7fb85 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_a4c297b6_cb1b_4046_a02c_4c49b8d7fb85">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/s002139/ontologies/2021/3/untitled-ontology-14#convoque"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_8286e969_43be_451b_93ad_790b8cec4c5b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Secretariat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_c4a64ee5_0965_4b86_92f4_43d1474e9106 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_c4a64ee5_0965_4b86_92f4_43d1474e9106">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_81adfb2a_4c9c_4b77_90f1_3f13cba0bd0a"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_39660358_c3f5_4f5b_9e1c_f0e8c18a8fa4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Groupe_travail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_d11bb5f2_bd07_4bde_acbb_c7c741d9df7b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_d11bb5f2_bd07_4bde_acbb_c7c741d9df7b">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_1899c36f_3c09_4504_885c_f2d00186bf65"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_8286e969_43be_451b_93ad_790b8cec4c5b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Organisation_normalisation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_fe5e99a7_6696_4125_94a9_afaaff877300 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_fe5e99a7_6696_4125_94a9_afaaff877300">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLObjectProperty_c946a983_2ca8_490a_9a89_84f6dbd288cb"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_39660358_c3f5_4f5b_9e1c_f0e8c18a8fa4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Mot_cle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_0e5b5be3_63c5_4e2a_b0fc_20b1751d6fe3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_39660358_c3f5_4f5b_9e1c_f0e8c18a8fa4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_3cd270c2_6570_40ec_861c_b20146693062"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_571cc214_016b_44d7_a783_81507e918a64"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_8286e969_43be_451b_93ad_790b8cec4c5b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_a4c297b6_cb1b_4046_a02c_4c49b8d7fb85"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_c4a64ee5_0965_4b86_92f4_43d1474e9106"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_d11bb5f2_bd07_4bde_acbb_c7c741d9df7b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nmq/ontologies/2021/4/untitled-ontology-50#OWLClass_fe5e99a7_6696_4125_94a9_afaaff877300"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
