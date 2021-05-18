@@ -25,6 +25,7 @@ We made further tries (not all reported here) and "new_try.owl" is reflecting th
 Further notes : 
 - All three files need to be opened in english to be readable, and are readable with Webprotege either by uploading the owl file in new projects (selecting "en" at the creation 
 of the project) or using the links provided below. In any case, a webprotege account is needed.
+
 https://webprotege.stanford.edu/#projects/84fa787f-a20e-4a2a-b6e9-9adebee49263
 
 https://webprotege.stanford.edu/#projects/f35e1c94-cd52-4885-8839-12396d0c4768
